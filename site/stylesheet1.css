@@ -1,0 +1,119 @@
+/* Generic Selectors */
+
+body {
+   font-family: Helvetica ; /*"Times New Roman", Times, serif*/
+   font-size: 14px;
+   color: #1F1209;
+   background-color: #FFF8DC;
+}
+ 
+p {
+   width: 80%;
+   font-size: 18px;
+}
+ 
+h1 {
+   font-family: Helvetica;
+   font-size: 36px;
+   font-weight: bold;
+   text-align: center;
+   color: #003366;
+}
+ 
+h2 {
+   font-family: Helvetica;
+   font-size: 16px;
+   font-weight: bold;
+   color: #003366;
+   border-bottom: 1px solid #834C24;
+}
+
+/**************** Pseudo classes ****************/
+
+a:link {
+   color: #834C24;
+   text-decoration: underline;
+   font-weight: bold;
+}
+ 
+a:visited {
+   color: #834C24;
+   text-decoration: underline;
+   font-weight: bold;
+}
+ 
+a:hover {
+   color: rgb(0, 33, 66);
+   padding-bottom: 5px;
+   font-weight: bold;
+   text-decoration: underline;
+}
+ 
+a:active { 
+   color: rgb(31, 18, 9);
+   font-weight: bold;
+}
+ 
+/************************* Form Elements *************************/
+
+input[type=text], input[type=tel], textarea {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 25%;
+    background-color: #834C24; /*#4CAF50;*/
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: #894023;
+}
+
+div.form {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+label, fieldset {
+   font-size: 18px;
+}
+
+legend {
+   font-size: 20px;
+}
+
+/************************* Classes *************************/
+
+
+.navigation {
+   position: absolute;
+   width: 210px;
+   height: 600px;
+   margin: 0;
+   border-right: 1px solid #003366;
+   font-weight: normal;
+}
+ 
+.centerDoc {
+   position: absolute;
+   padding: 0 0 20px 0; /*top right bottom left*/
+   margin-left: 235px;
+}
+
+.center {
+   align-items: center;
+   align-content: center;
+}
